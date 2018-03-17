@@ -12,7 +12,7 @@
 
   <body>
     <header>
-
+      <img src = "img/caval_fondNoir.png"  alt = "Logo">
     </header>
 
     <nav>
@@ -28,9 +28,71 @@
 
     <section>
 
+      <div id=infos>
+        <h2>Infos utiles</h2>
+
+        <div id="questionnaire">
+          <p class="question">Les frais de livraisons sont-ils pris en charge ?</p>
+          <p class="reponse">les frais de livraison vous sont offerts en France.<br>
+            En revanche, ils s’élèvent à 15€ en Europe et 25€ hors d'Europe.</p>
+
+          <p class="question">Quels sont les délais de livraison ?</p>
+          <p class="reponse">Les délais dépendent du service postal, soit 2-3j en France, 4-5j en Europe et 10-12j hors d’Europe.</p>
+
+          <p class="question">Quelles sont vos gammes de pointures ?</p>
+          <p class="reponse">Chaque modèle est disponible du 36 au 45. Nous chaussons normalement, alors prenez votre pointure habituelle !</p>
+
+          <p class="question">Je me suis trompé de taille, que dois-je faire ?</p>
+          <p class="reponse">Pas de panique ! Si par malheur elles ne vous vont pas, vous disposerez de 15 jours une fois vos CAVAL reçues pour nous les retourner.<br>
+            Les retours seront gratuits et nous vous renverrons la pointure qui vous convient.</p>
+        </div>
+      </div>
+
+      <div id="renseignement">
+        <h2>Des questions ?</h2>
+        <p>Vous désirez un renseignement ? Envoyez nous votre question</p>
+
+        <form method="post" action="#">
+
+  				<label for="email">Votre email</label>
+  						<input id="email" name="email" type="email" placeholder="timBerners@gmail.com" required><br>
+
+  				<label for="nom">Votre nom</label>
+  						<input id="nom" name="nom" type="text" placeholder="Tim Berners-Lee" required><br>
+
+  				<label for="message">Votre message</label><br>
+  					<textarea id="message" placeholder="Taper votre message ici"></textarea>
+
+  				<input class="envoi" type="submit" value="Envoyer" title="Cliquer sur ce bouton rafraîchira la page">
+			   </form>
+       </div>
+
     </section>
 
     <footer>
+
+      <div id="aPropos">
+        <h3>À propos de Caval</h3>
+        <ul>
+  				<li><a href="index.html">Accueil</a></li>
+  				<li><a href="collection.html">Collection</a></li>
+          <li><a href="creation.html">Création</a></li>
+        </ul>
+      </div>
+
+      <div id="contact">
+        <h3>Des questions ?</h3>
+        <ul>
+  				<li><a href="faq.html">Consulter notre FAQ </a></li>
+          <li><a href="contact.html">Prenez contact !</a></li>
+        </ul>
+      </div>
+
+      <hr>
+
+      <div id="social">
+
+      </div>
 
     </footer>
 
