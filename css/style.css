@@ -5,3 +5,9 @@ body {
 footer{
   background-color: #7D97AD;
 }
+
+@media only screen and (min-width: 768px) {
+
+  /*Desktop*/
+
+}
