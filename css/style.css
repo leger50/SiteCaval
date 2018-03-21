@@ -1,11 +1,49 @@
 body {
+  font-size : 20px;
+  margin : 0;
   /*background:linear-gradient(170deg, red, blue);*/
 }
 
-footer{
-  background-color: #7D97AD;
+h2{
+  text-align: center;
 }
 
+ul{
+  list-style-type : none;
+  padding:0px;
+}
+
+ul li a{
+	color : black;
+	text-decoration : none;
+}
+
+header img{
+  width : 100%;
+}
+
+.reponse{
+  color : #A9A9A9;
+}
+
+hr{
+	width : 20%;
+	margin-top : 5%;
+}
+
+footer{
+  margin:0px;
+  height : 100%;
+  background-color: #7D97AD;
+  text-align : center;
+}
+
+#social a{
+  margin-left : 5%;
+  margin-right : 5%;
+
+  /*margin-top : 10%;*/
+}
 @media only screen and (min-width: 768px) {
 
   /*Desktop*/
