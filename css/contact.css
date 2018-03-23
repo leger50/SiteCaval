@@ -1,3 +1,80 @@
+body {
+  font-size : 20px;
+  margin : 0;
+  /*background:linear-gradient(170deg, red, blue);*/
+}
+
+h2{
+  text-align: center;
+}
+
+ul{
+  list-style-type : none;
+  padding:0px;
+}
+
+ul li a{
+	color : black;
+	text-decoration : none;
+}
+
+header img{
+  width : 100%;
+}
+
+hr{
+	width : 20%;
+	margin-top : 5%;
+}
+
+footer{
+  margin:0px;
+  height : 100%;
+  background-color: #7D97AD;
+  text-align : center;
+}
+
+#social a{
+  margin-left : 5%;
+  margin-right : 5%;
+
+  /*margin-top : 10%;*/
+}
+
+#Presentation_contact p {
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+#Presentation_contact h1 {
+  text-align: center;
+}
+#Presentation_contact img {
+  width: 80%;
+  height: auto;
+  border-radius: 50%;
+  margin-left: 10%;
+}
+
+#Reseaux p {
+  margin-right: 10%;
+  text-align: justify;
+}
+
+#Reseaux h1 {
+  text-align: center;
+}
+#Reseaux img {
+  width: ;
+  height: ;
+  margin-left: 10%;
+}
+
+
+
+
 
 
 @media only screen and (min-width: 768px) {
