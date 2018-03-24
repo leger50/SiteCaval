@@ -60,17 +60,22 @@ footer{
 }
 
 #Reseaux p {
-  text-align: center;
-  padding-bottom: 2%;
+  display:inline-block;
+  width:44%;
+  vertical-align: top;
+  margin: 2% 0% 0% 5%;
+
 }
 
 #Reseaux h1 {
   text-align: center;
 }
 #Reseaux img {
-  width: 10%;
+  margin-left: 15%;
+  display:inline-block;
+  width:10%;
   height: 10%;
-  margin-left: 45%;
+  margin-bottom: 2%;
 }
 
 
