@@ -1,6 +1,5 @@
 body {
   font-size : 20px;
-
   /*background:linear-gradient(170deg, red, blue);*/
 }
 
@@ -48,10 +47,6 @@ footer{
 /*******************************************************************/
 /*******************************************************************/
 
-html {
-  font-size: 100%;
-}
-
 .tryptique , .KandL , .KandL2 , .VandM , .VandM2 {
   text-align: center;
 }
@@ -65,9 +60,7 @@ p {
 
 h1{
   text-align: center;
-
-  font-size: 40px;
-
+  font-size: 2em;
 }
 
 h2 {
