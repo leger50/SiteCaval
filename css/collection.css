@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.pose1, .pose2, .pose3 {
+  width: 30%;
+}
+
+.img1, .img2, .img3, .img4 {
+  width: 90%;
+}
+
 p {
   text-align: justify;
   margin : 5%;
