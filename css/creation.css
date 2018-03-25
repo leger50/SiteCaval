@@ -15,6 +15,33 @@ p {
   font-weight: bold;
 }
 
+h2 {
+  text-align: center;
+
+  font-size: 1.4em;
+  color : white;
+
+  background : linear-gradient(to right, #02CCBA , #AA7eCD);
+  border-radius: 20px;
+
+  margin: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.pageCreation {
+  width: 70%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-top: 1px solid #585858;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  text-align: center;
+}
+
 #savoirFaire {
   width: 100%;
   margin: auto;
@@ -23,6 +50,37 @@ p {
 .img1 {
   width: 90%;
   margin-left: 5%;
+}
+
+#cuirs {
+  width: 100%;
+  margin: auto;
+}
+
+.img2 {
+  width: 90%;
+  margin-left: 5%;
+}
+
+#semelle {
+  width: 100%;
+  margin: auto;
+}
+
+.img3 {
+  width: 90%;
+  margin-left: 5%;
+}
+
+#doublure {
+  width: 100%;
+  margin: auto;
+}
+
+.img4 {
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
 }
 
 @media only screen and (min-width: 768px) {
