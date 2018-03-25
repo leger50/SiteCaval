@@ -20,12 +20,14 @@
   margin-bottom: 5%;
 }
 
-#trait {
-  border-top : 1px solid black;
-  width : 60%;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-bottom: 5%;
+#pageIndex {
+  width: 90%;
+  margin: 5%;
+  border-top: 1px solid #cdcdcd;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  text-align: center;
 }
 
 #Reseaux p {
