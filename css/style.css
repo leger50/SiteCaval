@@ -20,6 +20,7 @@ a{
   text-decoration: none;
   color : black;
   transition: color 0.3s ease;
+  border-bottom: 1px solid black;
 }
 
 a:hover{
@@ -122,10 +123,13 @@ a:hover{
  */
 #menu{
   position: absolute;
-  width: 300px;
+  width: 200px;
   margin: -100px 0 0 0;
+
   padding: 50px;
   padding-top: 125px;
+  padding-left: 20px;
+
   right: -100px;
 
   background: #ededed;
@@ -142,6 +146,7 @@ a:hover{
 #menu li{
   padding: 10px 0;
   font-size: 22px;
+  /*border-bottom: 1px solid black;*/
 }
 
 /*
