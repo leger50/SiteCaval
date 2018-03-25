@@ -20,7 +20,6 @@ a{
   text-decoration: none;
   color : black;
   transition: color 0.3s ease;
-  border-bottom: 1px solid black;
 }
 
 a:hover{
@@ -194,5 +193,56 @@ footer{
 @media only screen and (min-width: 768px) {
 
   /*Desktop*/
+
+  /*Menu*/
+  #menuToggle{
+    display: block;
+    position: static;
+    top: auto;
+    right: auto;
+
+    z-index: auto;
+
+    -webkit-user-select: auto;
+    user-select: auto;
+  }
+
+  #menuToggle input{
+    display: none;
+  }
+
+  #menuToggle span{
+    display: none;
+  }
+
+  #menu{
+    position: static;
+    width: auto;
+    margin: 0;
+    padding: 0px;
+
+    right: auto;
+
+    list-style-type: none;
+
+    transform-origin: 50% 50% 0;
+    transform: none;
+
+    transition: all 0s ease 0s;
+  }
+
+
+
+  #menu li{
+    display : inline-block;
+    padding:0px;
+    margin-left : 4%;
+    margin-right : 4%;
+    font-size: 22px;
+  }
+  nav{
+    text-align: center;
+  }
+
 
 }
