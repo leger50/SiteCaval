@@ -2,6 +2,11 @@ blockquote {
   margin: 5%;
   text-align: center;
   font-style: italic;
+  color: #585858;
+}
+
+.darkgray{
+  color : #585858;
 }
 
 p {
@@ -20,6 +25,7 @@ p {
 .imgLeft .img1, .imgLeft .img2 {
   width: 49%;
   margin-bottom: 1%;
+  margin-top : 1%;
 }
 
 .imgLeft .img2 {
@@ -28,7 +34,6 @@ p {
 
 .imgRight .img4, .imgRight .img5 {
   width: 49%;
-  margin-bottom: 1%;
 }
 
 .imgRight .img5 {
