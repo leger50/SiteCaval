@@ -203,6 +203,43 @@ footer #social a{
   /*margin-top : 10%;*/
 }
 
+.text {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin : 5%;
+
+  color:#02CCBA;
+  -webkit-animation:colorchange 7s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+  0% { color: #02CCBA;}
+  10% { color: #02CCCB;}
+  20% { color: #02BCCC;}
+  30% { color: #02ACCC;}
+  40% { color: #02C6E4;}
+  50% { color: #02B3E4;}
+  60% { color: #02A0E4;}
+  70% { color: #BE7eCD;}
+  80% { color: #B77eCD;}
+  90% { color: #B17eCD;}
+  100% { color: #AA7eCD;}
+}
+
+.separateur {
+  width: 70%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-top: 1px solid #585858;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  text-align: center;
+}
+
 @media only screen and (min-width: 768px) {
 
   /*Desktop*/

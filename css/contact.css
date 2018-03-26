@@ -20,19 +20,6 @@
   margin-bottom: 5%;
 }
 
-#pageContact {
-  width: 70%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  margin-left: 15%;
-  margin-right: 15%;
-  border-top: 1px solid #585858;
-  border-bottom: 0;
-  border-left: 0;
-  border-right: 0;
-  text-align: center;
-}
-
 #Reseaux p {
   display:inline-block;
   width:44%;
