@@ -7,7 +7,7 @@ body {
 }
 
 header{
-  margin-top: 2%;
+  margin-top: 0px;
   margin-bottom: 2%;
 
   background-color: #757575;
@@ -39,7 +39,7 @@ a:hover{
 #menuToggle{
   display: block;
   position: absolute;
-  top: 4%;
+  top: 3%;
   right: 10%;
 
   z-index: 1;
