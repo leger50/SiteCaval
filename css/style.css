@@ -1,13 +1,16 @@
+
+/* WARNING: RECUPERER ECRITURE BLANCHE LOGO + ENLEVER MARGIN TOP + RECENTER */
+
 body {
   font-size : 20px;
-  border : 1px solid green;
-
   /*background:linear-gradient(170deg, red, blue);*/
 }
 
 header{
   margin-top: 2%;
   margin-bottom: 2%;
+
+  background-color: #585858;
 
   padding : 0px;
 }
@@ -29,7 +32,7 @@ a:hover{
 
 :visited{
   text-decoration: none;
-  color : black
+  color:#585858;
 }
 
 /*Menu*/
@@ -168,7 +171,7 @@ ul{
 }
 
 ul li a{
-	color : black;
+  color:#585858;
 	text-decoration : none;
 }
 
