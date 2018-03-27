@@ -1,5 +1,60 @@
+.question{
+  font-weight: bold;
+  margin-left: 5%;
+  margin-right: 5%;
+}
 .reponse{
-  color : #A9A9A9;
+  margin : 3%;
+}
+
+#renseignement h2{
+
+}
+
+#renseignement p{
+  text-align: center;
+  font-style: italic;
+  color: #585858;
+}
+
+form{
+  margin-top: 2%;
+}
+
+label{
+  display: inline-block;
+  text-align: right;
+  width : 40%;
+}
+
+input{
+  margin-left : 5%;
+}
+
+textarea{
+  display : block;
+  margin-left: auto;
+  margin-right: auto;
+  width : 80%;
+
+  resize:vertical;
+
+}
+
+.envoi{
+  display : block;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top : 2%;
+
+  width : 30%;
+
+  font-size: 80%;
+
+  color : white;
+  background : linear-gradient(to right, #02CCBA , #AA7eCD);
+  border-radius: 20px;
 }
 
 @media only screen and (min-width: 768px) {
