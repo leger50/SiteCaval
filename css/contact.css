@@ -35,6 +35,10 @@
   margin-bottom: 5%;
 }
 
+.aContact:visited {
+  color: black;
+}
+
 @media only screen and (min-width: 768px) {
 
   /*Desktop*/
