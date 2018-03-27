@@ -39,6 +39,20 @@
   color: black;
 }
 
+.cavalier2, .cavalier3 {
+  width: 44%;
+  margin-bottom: 5%;
+}
+
+.cavalier2 {
+  margin-left : 5%;
+}
+
+.cavalier3 {
+  float : right;
+  margin-right: 5%;
+}
+
 @media only screen and (min-width: 768px) {
 
   /*Desktop*/
