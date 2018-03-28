@@ -3,7 +3,12 @@
 }
 
 .reponse{
-  margin : 3%;
+  margin-top : 3%;
+  margin-bottom: 3%;
+  margin-left: 12%;
+  margin-right: 7%;
+  color : #585858;
+  text-align: justify;
 }
 
 p{
@@ -12,7 +17,7 @@ p{
 }
 
 #renseignement h2{
-
+  margin-bottom: 3%;
 }
 
 #renseignement p{
