@@ -7,7 +7,7 @@ header{
   margin-top: 0px;
   margin-bottom: 2%;
 
-  background-color: #757575;
+  background-color: #333333;
 
   padding : 0px;
 }
@@ -30,7 +30,7 @@ a:hover{
 
 :visited{
   text-decoration: none;
-  color:#585858;
+  color:white;
 }
 
 /*Menu*/
@@ -133,7 +133,7 @@ a:hover{
 
   right: -100px;
 
-  background: #ededed;
+  background: black;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -169,7 +169,7 @@ ul{
 }
 
 ul li a{
-  color:#585858;
+  color:white;
 	text-decoration : none;
 }
 
