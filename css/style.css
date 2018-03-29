@@ -307,13 +307,25 @@ footer #social a{
     margin-right : 4%;
     font-size: 22px;
   }
+
   nav{
     text-align: center;
   }
 
   section{
-    width:80%;
+    width:78%;
     margin:auto;
+  }
+
+  #aPropos, #contact{
+    display : inline-block;
+    width : 45%;
+    vertical-align: top;
+  }
+
+  footer #social a{
+    margin-left : 2%;
+    margin-right : 2%;
   }
 
 
