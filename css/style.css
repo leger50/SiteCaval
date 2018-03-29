@@ -328,7 +328,9 @@ footer #social a{
   }
 
   footer hr{
-    display : none;
+    display:inline-block;
+    transform: rotate(-90deg);
+    width : 50%;
   }
 
   footer #social a{
