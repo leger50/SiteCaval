@@ -317,10 +317,18 @@ footer #social a{
     margin:auto;
   }
 
-  #aPropos, #contact{
+  #aPropos, #contact, #social{
     display : inline-block;
-    width : 45%;
+    width : 30%;
     vertical-align: top;
+  }
+
+  #social{
+    margin:2%;
+  }
+
+  footer hr{
+    display : none;
   }
 
   footer #social a{
