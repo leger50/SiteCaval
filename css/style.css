@@ -298,8 +298,6 @@ footer #social a{
     transition: all 0s ease 0s;
   }
 
-
-
   #menu li{
     display : inline-block;
     padding:0px;
@@ -328,14 +326,12 @@ footer #social a{
   }
 
   footer hr{
-    display:inline-block;
-    transform: rotate(-90deg);
+    display:none;
   }
 
   footer #social a{
     margin-left : 2%;
     margin-right : 2%;
   }
-
 
 }
