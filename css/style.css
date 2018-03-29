@@ -42,6 +42,11 @@ a:hover{
   color:white;
 }
 
+.darkgray{
+  color : #585858;
+  font-weight : bold;
+}
+
 /*Menu*/
 #menuToggle{
   display: block;
