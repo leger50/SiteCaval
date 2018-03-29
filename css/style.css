@@ -323,5 +323,10 @@ footer #social a{
     vertical-align: top;
   }
 
+  footer #social a{
+    margin-left : 2%;
+    margin-right : 2%;
+  }
+
 
 }
