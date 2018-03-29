@@ -53,4 +53,8 @@ h2 {
     width: 25%;
   }
 
+  .img1, .img2, .img3, .img4 {
+    width: 75%;
+  }
+
 }

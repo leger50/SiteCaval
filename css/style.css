@@ -261,6 +261,9 @@ footer #social a{
 
   /*Desktop*/
 
+  header {
+    margin: 0;
+  }
   /*Menu*/
   #menuToggle{
     display: block;
@@ -287,6 +290,9 @@ footer #social a{
     width: auto;
     margin: 0;
     padding: 0px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background-color: #cdcdcd;
 
     right: auto;
 
@@ -304,6 +310,13 @@ footer #social a{
     margin-left : 4%;
     margin-right : 4%;
     font-size: 22px;
+  }
+
+  #menu a {
+    color: #333333;
+  }
+  #menu a:visited {
+    color : #333333;
   }
 
   nav{
