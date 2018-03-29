@@ -311,5 +311,10 @@ footer #social a{
     text-align: center;
   }
 
+  section{
+    width:80%;
+    margin:auto;
+  }
+
 
 }
