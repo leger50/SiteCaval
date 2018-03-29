@@ -63,10 +63,11 @@
 
 @media only screen and (min-width: 768px) {
   .rond {
-    width: 35%;
+    width: 40%;
     height: auto;
     display: inline-block;
     margin-bottom: 5%;
+    margin-left: 5%;
   }
 
   #textcontact{
@@ -74,7 +75,7 @@
     width: 40%;
     vertical-align: top;
     text-align: justify;
-    margin: 6% 5% 5% 9%;
+    margin: 5% 5% 5% 9%;
     font-size: 1em;
   }
 
@@ -103,6 +104,7 @@
 
   #Reseaux h1 {
     font-size: 1.5em;
+    margin-left: 5%;
   }
 
   .titrePC {
