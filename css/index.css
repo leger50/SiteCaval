@@ -25,8 +25,6 @@ p {
 
 .imgLeft .img1, .imgLeft .img2 {
   width: 49%;
-  margin-bottom: 1%;
-  margin-top : 1%;
 }
 
 .imgLeft .img2 {
@@ -43,7 +41,8 @@ p {
 
 .imgCenter .img3 {
   width: 100%;
-  margin-bottom : 1%;
+  margin-bottom: 1%;
+  margin-top : 1%;
 }
 
 .imgDesktop1, .imgDesktop2 {
@@ -68,9 +67,10 @@ p {
 }
 
 .imgLeft{
-  width: 25%;
+  width: 23%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 .imgLeft .img1, .imgLeft .img2 {
   width: 100%;
@@ -85,10 +85,15 @@ p {
   width: 45%;
 }
 
+.imgCenter .img3 {
+  margin: 0;
+}
+
 .imgRight {
-  width: 25%;
+  width: 23%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 .imgRight .img4, .imgRight .img5 {
   width: 100%;
