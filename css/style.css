@@ -6,6 +6,11 @@
 
 }
 
+.darkgray{
+  color : #585858;
+  font-weight : bold;
+}
+
 body {
   font-size : 20px;
   overflow-x: hidden;
