@@ -3,6 +3,7 @@ blockquote {
   text-align: center;
   font-style: italic;
   color: #585858;
+  font-size: 1em;
 }
 
 .darkgray{
@@ -13,7 +14,7 @@ blockquote {
 p {
   margin: 5%;
   text-align: justify;
-  font-size: 0.9em;
+  font-size: 0.75em;
 }
 
 .images {
@@ -52,11 +53,11 @@ p {
 @media only screen and (min-width: 768px) {
 
 blockquote {
-  font-size: 2.3em;
+  font-size: 1.9em;
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 1em;
   margin : 0 5% 0 5%;
 }
 
