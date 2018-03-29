@@ -6,31 +6,11 @@
   font-size: 0.9em;
 }
 
-#Presentation_contact h1 {
-  text-align: center;
-  font-size: 35px;
-
-}
-#Presentation_contact img {
+.rond {
   width: 80%;
   height: auto;
   border-radius: 50%;
   margin-left: 10%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-#pageContact {
-  width: 70%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  margin-left: 15%;
-  margin-right: 15%;
-  border-top: 1px solid #585858;
-  border-bottom: 0;
-  border-left: 0;
-  border-right: 0;
-  text-align: center;
 }
 
 #Reseaux p {
@@ -48,15 +28,30 @@
   font-size: 1.3em;
 }
 #Reseaux img {
-  margin-left: 15%;
+  margin-left: 21%;
   display:inline-block;
   width:10%;
   height: 10%;
   margin-bottom: 5%;
 }
 
+.aContact:visited {
+  color: black;
+}
 
+.cavalier2, .cavalier3 {
+  width: 44%;
+  margin-bottom: 5%;
+}
 
+.cavalier2 {
+  margin-left : 5%;
+}
+
+.cavalier3 {
+  float : right;
+  margin-right: 5%;
+}
 
 @media only screen and (min-width: 768px) {
   
