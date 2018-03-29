@@ -1,5 +1,14 @@
+@font-face {
+    font-family: 'Brooklyn';
+    src: url('../fonts/The_Brooklyn.otf') format('otf'),
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
   font-size : 20px;
+  overflow-x: hidden;
   /*background:linear-gradient(170deg, red, blue);*/
 }
 
@@ -162,6 +171,7 @@ a:hover{
 
 h2{
   text-align: center;
+  /*font-family: 'Brooklyn';*/
 }
 
 ul{
