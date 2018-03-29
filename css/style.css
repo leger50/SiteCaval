@@ -186,13 +186,14 @@ ul li a{
 
 hr{
   width : 20%;
-  margin-top : 5%;
+  margin-top : 2%;
 }
 
 footer{
   margin:0px;
   margin-top : 2%;
   padding-top:2%;
+  padding-bottom : 1%;
 
   height : 100%;
   background-color: #cdcdcd;
@@ -206,6 +207,10 @@ footer h3{
 
 footer li{
   margin : 1%;
+}
+
+footer a, footer a:visited{
+  color:#343E47;
 }
 
 footer #social a{
