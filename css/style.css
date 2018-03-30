@@ -1,9 +1,15 @@
 @font-face {
-    font-family: 'Brooklyn';
-    src: url('../fonts/The_Brooklyn.otf') format('otf'),
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'NotoSans-Regular';
+  src: url('../fonts/NotoSans-Regular.ttf') format('truetype');
+}
 
+@font-face {
+  font-family: 'CaviarDreams';
+  src: url('../fonts/NotoSans-Regular.ttf') format('truetype');
+}
+
+p{
+  font-family: 'NotoSans-Regular';
 }
 
 body {
