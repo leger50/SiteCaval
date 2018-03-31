@@ -58,7 +58,7 @@ table {
 }
 
 @font-face {
-  font-family: 'Cutive-Regular';
+  font-family: 'Andula-Regular';
   src: url('../fonts/Cutive-Regular.ttf') format('truetype');
 }
 
@@ -230,7 +230,7 @@ h2{
   padding-top: 1%;
   padding-bottom: 1%;
 
-  font-family: 'Cutive-Regular';
+  font-family: 'Andada-Regular';
 }
 
 @-webkit-keyframes colorchange {
@@ -256,7 +256,7 @@ h2{
   color:#02CCBA;
   -webkit-animation:colorchange 7s infinite alternate;
 
-  font-family: 'Cutive-Regular';
+  font-family: 'Andada-Regular';
 }
 
 p{
