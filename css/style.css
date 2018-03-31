@@ -1,18 +1,4 @@
-@font-face {
-  font-family: 'CaviarDreams';
-  src: url('../fonts/CaviarDreams.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Arimo-Regular';
-  src: url('../fonts/Arimo-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Nunito-Regular';
-  src: url('../fonts/Nunito-Regular.ttf') format('truetype');
-}
-
+/*A supprimer par la suite
 @font-face {
   font-family: 'Nunito-Light';
   src: url('../fonts/Nunito-Light.ttf') format('truetype');
@@ -21,7 +7,7 @@
 @font-face {
   font-family: 'QuattrocentoSans-Regular';
   src: url('../fonts/QuattrocentoSans-Regular.ttf') format('truetype');
-}
+}*/
 
 @font-face {
   font-family: 'Quicksand-Regular';
@@ -294,6 +280,7 @@ footer #social a{
 
   header {
     margin: 0;
+    text-align: center;
   }
   /*Menu*/
   #menuToggle{
