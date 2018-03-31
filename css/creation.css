@@ -86,6 +86,10 @@ p {
   justify-content: space-around;
 }
 
+.cSavoirFaireImg, .cCuirsImg, .cSemelleImg, .cDoublureImg {
+  width: 45%;
+}
+
 .cSavoirFaireText, .cCuirsText, .cSemelleText, .cDoublureText  {
   width: 55%;
   padding: 5%;
@@ -104,20 +108,27 @@ p {
   margin-right: : 10%;
 }
 
-.cSavoirFaire img, .cSemelle img {
-  width: 45%;
-  margin: 0;
+.cSavoirFaireImg, .cSemelleImg {
   margin-right: 5%;
+}
+
+.cSavoirFaire img, .cSemelle img {
+  width: 100%;
+  margin: 0;
 }
 
 .cCuirs, .cDoublure {
   flex-direction: row-reverse;
 }
 
-.cCuirs img, .cDoublure img {
-  width: 45%;
-  margin: 0;
-  margin-left: 5%;
+.cCuirsImg, .cDoublureImg {
+    margin-left: 5%;
 }
+
+.cCuirs img, .cDoublure img {
+  width: 100%;
+  margin: 0;
+}
+
 
 }
