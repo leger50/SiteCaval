@@ -67,6 +67,11 @@ table {
   src: url('../fonts/Andada-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'DidactGothic-Regular';
+  src: url('../fonts/DidactGothic-Regular.ttf') format('truetype');
+}
+
 body {
   font-size : 20px;
   overflow-x: hidden;
@@ -220,7 +225,7 @@ h1{
   font-weight: bold;
   margin : 5%;
 	margin-top: 0px;
-	font-family: 'Cutive-Regular';
+	font-family: 'DidactGothic-Regular';
 }
 
 h2{
@@ -236,7 +241,7 @@ h2{
   padding-top: 1%;
   padding-bottom: 1%;
 
-  font-family: 'Andada-Regular';
+  font-family: 'DidactGothic-Regular';
 }
 
 @-webkit-keyframes colorchange {
@@ -262,7 +267,7 @@ h2{
   color:#02CCBA;
   -webkit-animation:colorchange 7s infinite alternate;
 
-  font-family: 'Andada-Regular';
+  font-family: 'DidactGothic-Regular';
 }
 
 p{
