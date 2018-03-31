@@ -468,7 +468,7 @@ blockquote {
   text-align: center;
   font-style: italic;
   color: #585858;
-	font-size: 1em;
+	font-size: 0.8em;
 }
 
 form{
@@ -481,6 +481,7 @@ label{
   margin-top: 2%;
   width : 40%;
   text-align: right;
+  font-size: 0.9em;
 }
 
 input{
