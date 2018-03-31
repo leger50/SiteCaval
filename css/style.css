@@ -57,6 +57,11 @@ table {
   src: url('../fonts/Quicksand-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'DaysOne-Regular';
+  src: url('../fonts/DaysOne-Regular.ttf') format('truetype');
+}
+
 body {
   font-size : 20px;
   overflow-x: hidden;
@@ -224,6 +229,8 @@ h2{
   margin: 5%;
   padding-top: 1%;
   padding-bottom: 1%;
+
+  font-family: 'DaysOne-Regular';
 }
 
 @-webkit-keyframes colorchange {
@@ -248,6 +255,8 @@ h2{
 
   color:#02CCBA;
   -webkit-animation:colorchange 7s infinite alternate;
+
+  font-family: 'DaysOne-Regular';
 }
 
 p{
