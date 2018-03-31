@@ -780,6 +780,10 @@ textarea{
 		text-align: center;
 	}
 
+	#Presentation_contact p{
+		font-size: 0.9em;
+	}
+
   #textcontact{
     display: inline-block;
     width: 40%;
@@ -788,10 +792,6 @@ textarea{
     margin: 3% 1% 5% 9%;
     font-size: 1em;
   }
-
-	textcontact p{
-		margin-right: 0px;
-	}
 
   .cavalier3 {
     display: none;
