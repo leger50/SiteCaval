@@ -597,8 +597,8 @@ textarea{
   }
 
   #menu a:hover{
-    background: #333333;
-    color: #ffffff;
+    /*background: #333333;*/
+    color: #4D7C8A;
   }
 
   nav{
