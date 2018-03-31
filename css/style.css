@@ -58,8 +58,8 @@ table {
 }
 
 @font-face {
-  font-family: 'DaysOne-Regular';
-  src: url('../fonts/DaysOne-Regular.ttf') format('truetype');
+  font-family: 'Cutive-Regular';
+  src: url('../fonts/Cutive-Regular.ttf') format('truetype');
 }
 
 body {
@@ -230,7 +230,7 @@ h2{
   padding-top: 1%;
   padding-bottom: 1%;
 
-  font-family: 'DaysOne-Regular';
+  font-family: 'Cutive-Regular';
 }
 
 @-webkit-keyframes colorchange {
@@ -256,7 +256,7 @@ h2{
   color:#02CCBA;
   -webkit-animation:colorchange 7s infinite alternate;
 
-  font-family: 'DaysOne-Regular';
+  font-family: 'Cutive-Regular';
 }
 
 p{
