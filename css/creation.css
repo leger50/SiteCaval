@@ -80,5 +80,26 @@ p {
   margin-bottom: 3%;
 }
 
+.cSavoirFaire, .cCuirs, .cSemelle, .cDoublure {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cSavoirFaireText {
+  width: 55%;
+  padding: 5%;
+}
+
+.cSavoirFaireText p {
+  text-align: center;
+  margin-left: 10%;
+}
+
+.cSavoirFaire img {
+  width: 45%;
+  margin: 0;
+  margin-right: 5%;
+}
 
 }
