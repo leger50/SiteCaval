@@ -215,7 +215,6 @@ h1{
   font-weight: bold;
   margin : 5%;
 	margin-top: 0px;
-	font-family: 'Poppins-Regular';
 }
 
 h2{
@@ -230,7 +229,6 @@ h2{
   margin: 5%;
   padding-top: 1%;
   padding-bottom: 1%;
-	font-family: 'Poppins-Regular';
 }
 
 @-webkit-keyframes colorchange {
