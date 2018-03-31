@@ -1,27 +1,65 @@
-/*A supprimer par la suite
-@font-face {
-  font-family: 'Nunito-Light';
-  src: url('../fonts/Nunito-Light.ttf') format('truetype');
+/*---Reset---*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
-@font-face {
-  font-family: 'QuattrocentoSans-Regular';
-  src: url('../fonts/QuattrocentoSans-Regular.ttf') format('truetype');
-}*/
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*---Style commun---*/
+
+/*Import des polices*/
 @font-face {
   font-family: 'Quicksand-Regular';
   src: url('../fonts/Quicksand-Regular.ttf') format('truetype');
 }
 
-p{
-  font-family: 'Quicksand-Regular';
-}
-
 body {
   font-size : 20px;
   overflow-x: hidden;
-  /*background:linear-gradient(170deg, red, blue);*/
 }
 
 header{
@@ -37,22 +75,6 @@ header img{
   width : 50%;
   margin : 2%;
   margin-top:3%;
-}
-
-a{
-  text-decoration: none;
-  color : black;
-  transition: color 0.3s ease;
-}
-
-:visited{
-  text-decoration: none;
-  color:white;
-}
-
-.darkgray{
-  color : #585858;
-  font-weight : bold;
 }
 
 /*Menu*/
@@ -78,15 +100,12 @@ a{
 
   cursor: pointer;
 
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
+  opacity: 0;
+  z-index: 2;
 
   -webkit-touch-callout: none;
 }
 
-/*
-* Just a quick hamburger
-*/
 #menuToggle span{
   display: block;
   width: 33px;
@@ -114,36 +133,22 @@ a{
   transform-origin: 0% 100%;
 }
 
-/*
-* Transform all the slices of hamburger
-* into a crossmark.
-*/
 #menuToggle input:checked ~ span{
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: white;
 }
 
-/*
-* But let's hide the middle one.
-*/
 #menuToggle input:checked ~ span:nth-last-child(3){
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/*
-* Ohyeah and the last one should go the other direction
-*/
 #menuToggle input:checked ~ span:nth-last-child(2){
   opacity: 1;
   transform: rotate(-45deg) translate(0, -1px);
 }
 
-/*
-* Make this absolute positioned
-* at the top left of the screen
-*/
 #menu{
   position: absolute;
   width: 200px;
@@ -160,7 +165,6 @@ a{
   opacity: 0;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
 
   transform-origin: 0% 0%;
   transform: translate(100%, 0);
@@ -171,21 +175,11 @@ a{
 #menu li{
   padding: 10px 0;
   font-size: 22px;
-  /*border-bottom: 1px solid black;*/
 }
 
-/*
-* And let's fade it in from the left
-*/
 #menuToggle input:checked ~ ul{
   transform: scale(1.0, 1.0);
   opacity: 0.89;
-}
-
-
-h2{
-  text-align: center;
-  /*font-family: 'Brooklyn';*/
 }
 
 ul{
@@ -196,6 +190,54 @@ ul{
 ul li a{
   color:white;
   text-decoration : none;
+}
+
+a{
+  text-decoration: none;
+  color : black;
+  transition: color 0.3s ease;
+}
+
+:visited{
+  text-decoration: none;
+  color:white;
+}
+
+h2{
+  text-align: center;
+}
+
+@-webkit-keyframes colorchange {
+  0% { color: #02CCBA;}
+  10% { color: #02CCCB;}
+  20% { color: #02BCCC;}
+  30% { color: #02ACCC;}
+  40% { color: #02C6E4;}
+  50% { color: #02B3E4;}
+  60% { color: #02A0E4;}
+  70% { color: #BE7eCD;}
+  80% { color: #B77eCD;}
+  90% { color: #B17eCD;}
+  100% { color: #AA7eCD;}
+}
+
+.text {
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin : 5%;
+
+  color:#02CCBA;
+  -webkit-animation:colorchange 7s infinite alternate;
+}
+
+p{
+  font-family: 'Quicksand-Regular';
+}
+
+.darkgray{
+  color : #585858;
+  font-weight : bold;
 }
 
 hr{
@@ -230,32 +272,6 @@ footer a, footer a:visited{
 footer #social a{
   margin-left : 5%;
   margin-right : 5%;
-
-  /*margin-top : 10%;*/
-}
-
-.text {
-  text-align: center;
-  font-size: 1.6em;
-  font-weight: bold;
-  margin : 5%;
-
-  color:#02CCBA;
-  -webkit-animation:colorchange 7s infinite alternate;
-}
-
-@-webkit-keyframes colorchange {
-  0% { color: #02CCBA;}
-  10% { color: #02CCCB;}
-  20% { color: #02BCCC;}
-  30% { color: #02ACCC;}
-  40% { color: #02C6E4;}
-  50% { color: #02B3E4;}
-  60% { color: #02A0E4;}
-  70% { color: #BE7eCD;}
-  80% { color: #B77eCD;}
-  90% { color: #B17eCD;}
-  100% { color: #AA7eCD;}
 }
 
 .separateur {
@@ -285,6 +301,7 @@ footer #social a{
     width : 35%;
     margin-top: 1.5%;
   }
+
   /*Menu*/
   #menuToggle{
     display: block;
@@ -338,6 +355,12 @@ footer #social a{
   #menu a {
     color: #333333;
   }
+
+  #menu a:hover{
+    background: #333333;
+    color: #cdcdcd;
+  }
+
   #menu a:visited {
     color : #333333;
   }
@@ -351,6 +374,15 @@ footer #social a{
     margin:auto;
   }
 
+  footer hr{
+    display:none;
+  }
+
+  footer #social a{
+    margin-left : 2%;
+    margin-right : 2%;
+  }
+
   #aPropos, #contact, #social{
     display : inline-block;
     width : 30%;
@@ -361,23 +393,8 @@ footer #social a{
     margin:2%;
   }
 
-  footer hr{
-    display:none;
-  }
-
-  footer #social a{
-    margin-left : 2%;
-    margin-right : 2%;
-  }
-
   .separateur {
     margin-top: 3%;
     margin-bottom: 3%;
   }
-
-  #menu a:hover{
-    background: #333333;
-    color: #cdcdcd;
-  }
-
 }
