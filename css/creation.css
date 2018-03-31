@@ -105,11 +105,11 @@ p {
 .cCuirsText p, .cDoublureText p {
   text-align: center;
   margin: 0;
-  margin-right: : 10%;
+  padding-right: 10%;
 }
 
 .cSavoirFaireImg, .cSemelleImg {
-  margin-right: 5%;
+  margin-right: 10%;
 }
 
 .cSavoirFaire img, .cSemelle img {
@@ -122,7 +122,7 @@ p {
 }
 
 .cCuirsImg, .cDoublureImg {
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 .cCuirs img, .cDoublure img {
@@ -130,5 +130,6 @@ p {
   margin: 0;
 }
 
-
+.cSavoirFaire img, .cSemelle img, .cCuirs img, .cDoublure img {
+  border-radius: 5%;
 }
