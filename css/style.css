@@ -175,6 +175,7 @@ header img{
 #menu li{
   padding: 10px 0;
   font-size: 22px;
+	font-family: 'Quicksand-Regular';
 }
 
 #menuToggle input:checked ~ ul{
@@ -450,7 +451,7 @@ blockquote {
   font-weight: bold;
   font-size: 0.8em;
 	text-align: left;
-  margin-bottom: 3%;
+  margin-bottom: 0;
 }
 
 .reponse{
@@ -482,6 +483,7 @@ label{
   width : 40%;
   text-align: right;
   font-size: 0.9em;
+	font-family: 'Quicksand-Regular';
 }
 
 input{
@@ -824,5 +826,23 @@ textarea{
     display:inline-block;
     width:40%;
     vertical-align: top;
+  }
+
+  /*---FAQ---*/
+  .question{
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+
+  .reponse{
+    margin-top: 2%;
+  }
+
+  #renseignement p{
+  	font-size: 1em;
+  }
+
+  label {
+    font-size: 1em;
   }
 }
