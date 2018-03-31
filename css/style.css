@@ -552,7 +552,8 @@ textarea{
   header {
     margin: 0;
     text-align: center;
-    height: 150px;
+		width: 100%;
+    height: auto;
   }
 
   header img{
