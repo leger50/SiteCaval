@@ -1,15 +1,35 @@
 @font-face {
-  font-family: 'NotoSans-Regular';
-  src: url('../fonts/NotoSans-Regular.ttf') format('truetype');
+  font-family: 'CaviarDreams';
+  src: url('../fonts/CaviarDreams.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'CaviarDreams';
-  src: url('../fonts/NotoSans-Regular.ttf') format('truetype');
+  font-family: 'Arimo-Regular';
+  src: url('../fonts/Arimo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito-Regular';
+  src: url('../fonts/Nunito-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito-Light';
+  src: url('../fonts/Nunito-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'QuattrocentoSans-Regular';
+  src: url('../fonts/QuattrocentoSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Quicksand-Regular';
+  src: url('../fonts/Quicksand-Regular.ttf') format('truetype');
 }
 
 p{
-  /*font-family: 'NotoSans-Regular';*/
+  font-family: 'Quicksand-Regular';
 }
 
 body {
