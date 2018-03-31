@@ -282,6 +282,12 @@ footer #social a{
   header {
     margin: 0;
     text-align: center;
+    height: 150px;
+  }
+
+  header img{
+    width : 35%;
+    margin-top: 1.5%;
   }
   /*Menu*/
   #menuToggle{
