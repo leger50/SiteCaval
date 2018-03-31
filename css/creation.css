@@ -71,7 +71,6 @@ h2 {
   margin-bottom: 5%;
 }
 
-
 .cSavoirFaire img, .cSemelle img, .cCuirs img, .cDoublure img {
   border-radius: 7%;
 }
@@ -120,8 +119,6 @@ p {
 .cSavoirFaire img, .cSemelle img {
   width: 100%;
   margin: 0;
-  border-radius: 0 7% 7% 0;
-
 }
 
 .cCuirs, .cDoublure {
@@ -135,5 +132,4 @@ p {
 .cCuirs img, .cDoublure img {
   width: 100%;
   margin: 0;
-  border-radius: 7% 0 0 7%;
 }
