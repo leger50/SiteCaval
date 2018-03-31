@@ -58,8 +58,8 @@ table {
 }
 
 @font-face {
-  font-family: 'Andada-Regular';
-  src: url('../fonts/Cutive-Regular.ttf') format('truetype');
+  font-family: 'Anaheim-Regular';
+  src: url('../fonts/Anaheim-Regular.ttf') format('truetype');
 }
 
 body {
@@ -231,7 +231,7 @@ h2{
   padding-top: 1%;
   padding-bottom: 1%;
 
-  font-family: 'Andada-Regular';
+  font-family: 'Anaheim-Regular';
 }
 
 @-webkit-keyframes colorchange {
@@ -257,7 +257,7 @@ h2{
   color:#02CCBA;
   -webkit-animation:colorchange 7s infinite alternate;
 
-  font-family: 'Andada-Regular';
+  font-family: 'Anaheim-Regular';
 }
 
 p{
