@@ -612,7 +612,7 @@ textarea{
   }
 
 	p {
-	  font-size: 0.9em;
+	  font-size: 0.95em;
 		margin-top : 3%;
     margin-bottom : 3%;
 	}
@@ -771,10 +771,6 @@ textarea{
 
 	#Presentation_contact{
 		text-align: center;
-	}
-
-	#Presentation_contact p{
-		font-size: 0.9em;
 	}
 
   #textcontact{
