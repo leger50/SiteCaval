@@ -62,6 +62,21 @@ table {
   src: url('../fonts/Poppins-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'DidactGothic-Regular';
+  src: url('../fonts/DidactGothic-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rajdhani-Regular';
+  src: url('../fonts/Rajdhani-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Teko-Regular';
+  src: url('../fonts/Teko-Regular.ttf') format('truetype');
+}
+
 body {
   font-size : 20px;
   overflow-x: hidden;
@@ -215,6 +230,7 @@ h1{
   font-weight: bold;
   margin : 5%;
 	margin-top: 0px;
+	font-family: 'Teko-Regular';
 }
 
 h2{
@@ -229,6 +245,7 @@ h2{
   margin: 5%;
   padding-top: 1%;
   padding-bottom: 1%;
+	font-family: 'Teko-Regular';
 }
 
 @-webkit-keyframes colorchange {
@@ -535,7 +552,8 @@ textarea{
   header {
     margin: 0;
     text-align: center;
-    height: 150px;
+		width: 100%;
+    height: auto;
   }
 
   header img{
