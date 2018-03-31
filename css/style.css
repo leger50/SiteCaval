@@ -322,7 +322,7 @@ blockquote {
   text-align: center;
   font-style: italic;
   color: #585858;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 .images {
@@ -409,7 +409,6 @@ blockquote {
 }
 
 /*---Contact---*/
-
 .rond {
   width: 80%;
   height: auto;
