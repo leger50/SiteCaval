@@ -45,10 +45,6 @@ a{
   transition: color 0.3s ease;
 }
 
-a:hover{
-  color: tomato;
-}
-
 :visited{
   text-decoration: none;
   color:white;
