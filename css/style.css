@@ -516,7 +516,7 @@ textarea{
   width : 30%;
 
   font-size: 80%;
-	font-family: 'Quicksand-Regular';
+	font-family: 'Quicksand-Regular', 'helvetica', 'Sans-Serif';
 
   color : white;
   background : linear-gradient(to right, #02CCBA , #AA7eCD);
