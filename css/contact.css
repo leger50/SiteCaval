@@ -46,20 +46,10 @@
   color: black;
 }
 
-.cavalier2, .cavalier3 {
-  width: 44%;
-  margin-bottom: 5%;
-}
-
-.cavalier2 {
-  margin-left : 5%;
-}
-
 .cavalier3 {
-  float : right;
-  margin-right: 5%;
+  width: 90%;
+  margin: 0% 5% 5% 5%;
 }
-
 
 @media only screen and (min-width: 768px) {
   .rond {
@@ -79,7 +69,7 @@
     font-size: 1em;
   }
 
-  .cavalier2, .cavalier3 {
+  .cavalier3 {
     display: none;
   }
 
