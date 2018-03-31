@@ -379,4 +379,8 @@ footer #social a{
     margin-bottom: 3%;
   }
 
+  #menu a:hover{
+    background: #333333;
+    color: #cdcdcd;
+  }
 }
