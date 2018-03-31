@@ -58,16 +58,6 @@ table {
 }
 
 @font-face {
-  font-family: 'Anaheim-Regular';
-  src: url('../fonts/Anaheim-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Andada-Regular';
-  src: url('../fonts/Andada-Regular.ttf') format('truetype');
-}
-
-@font-face {
   font-family: 'DidactGothic-Regular';
   src: url('../fonts/DidactGothic-Regular.ttf') format('truetype');
 }
@@ -225,7 +215,7 @@ h1{
   font-weight: bold;
   margin : 5%;
 	margin-top: 0px;
-	font-family: 'DidactGothic-Regular';
+	font-family: 'DidactGothic-Regular','Arial', 'Serif';
 }
 
 h2{
@@ -241,7 +231,7 @@ h2{
   padding-top: 1%;
   padding-bottom: 1%;
 
-  font-family: 'DidactGothic-Regular';
+  font-family: 'DidactGothic-Regular','Arial', 'Serif';
 }
 
 @-webkit-keyframes colorchange {
@@ -267,7 +257,7 @@ h2{
   color:#02CCBA;
   -webkit-animation:colorchange 7s infinite alternate;
 
-  font-family: 'DidactGothic-Regular';
+  font-family: 'DidactGothic-Regular', 'Arial', 'Serif';
 }
 
 p{
