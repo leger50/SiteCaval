@@ -57,26 +57,6 @@ table {
   src: url('../fonts/Quicksand-Regular.ttf') format('truetype');
 }
 
-@font-face {
-  font-family: 'Poppins-Regular';
-  src: url('../fonts/Poppins-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'DidactGothic-Regular';
-  src: url('../fonts/DidactGothic-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Rajdhani-Regular';
-  src: url('../fonts/Rajdhani-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Teko-Regular';
-  src: url('../fonts/Teko-Regular.ttf') format('truetype');
-}
-
 body {
   font-size : 20px;
   overflow-x: hidden;
@@ -230,7 +210,6 @@ h1{
   font-weight: bold;
   margin : 5%;
 	margin-top: 0px;
-	font-family: 'Teko-Regular';
 }
 
 h2{
@@ -245,7 +224,6 @@ h2{
   margin: 5%;
   padding-top: 1%;
   padding-bottom: 1%;
-	font-family: 'Teko-Regular';
 }
 
 @-webkit-keyframes colorchange {
@@ -298,7 +276,7 @@ footer{
   height : 100%;
   background-color: #cdcdcd;
   text-align : center;
-	font-family: 'Quicksand-Regular';
+	font-family: 'Quicksand-Regular', 'helvetica', 'Sans-Serif';
 }
 
 footer h3{
