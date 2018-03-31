@@ -86,20 +86,38 @@ p {
   justify-content: space-around;
 }
 
-.cSavoirFaireText {
+.cSavoirFaireText, .cCuirsText, .cSemelleText, .cDoublureText  {
   width: 55%;
   padding: 5%;
+  align-self: center;
 }
 
-.cSavoirFaireText p {
+.cSavoirFaireText p, .cSemelleText p {
   text-align: center;
+  margin: 0;
   margin-left: 10%;
 }
 
-.cSavoirFaire img {
+.cCuirsText p, .cDoublureText p {
+  text-align: center;
+  margin: 0;
+  margin-right: : 10%;
+}
+
+.cSavoirFaire img, .cSemelle img {
   width: 45%;
   margin: 0;
   margin-right: 5%;
+}
+
+.cCuirs, .cDoublure {
+  flex-direction: row-reverse;
+}
+
+.cCuirs img, .cDoublure img {
+  width: 45%;
+  margin: 0;
+  margin-left: 5%;
 }
 
 }
