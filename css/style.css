@@ -57,6 +57,11 @@ table {
   src: url('../fonts/Quicksand-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+}
+
 body {
   font-size : 20px;
   overflow-x: hidden;
