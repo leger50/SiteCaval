@@ -13,40 +13,40 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 
 body {
-	line-height: 1;
+  line-height: 1;
 }
 
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /*---Style commun---*/
@@ -208,11 +208,11 @@ h1{
   font-size: 1.5em;
   font-weight: bold;
   margin : 5%;
-	margin-top: 0px;
+  margin-top: 0px;
 }
 
 h2{
-	text-align: center;
+  text-align: center;
 
   font-size: 1em;
   color : white;
@@ -251,7 +251,7 @@ h2{
 
 p{
   font-family: 'Quicksand-Regular';
-	margin: 5%;
+  margin: 5%;
   text-align: justify;
   font-size: 0.75em;
 }
@@ -455,8 +455,8 @@ blockquote {
 /*---FAQ---*/
 .question{
   font-weight: bold;
-	font-size: 1em;
-	text-align: left;
+  font-size: 1em;
+  text-align: left;
 }
 
 .reponse{
@@ -466,7 +466,7 @@ blockquote {
   margin-right: 7%;
   color : #585858;
   text-align: justify;
-	font-size: 1em;
+  font-size: 1em;
 }
 
 #renseignement h2{
@@ -477,7 +477,7 @@ blockquote {
   text-align: center;
   font-style: italic;
   color: #585858;
-	font-size: 1em;
+  font-size: 1em;
 }
 
 form{
@@ -530,7 +530,7 @@ textarea{
 /*Desktop*/
 @media only screen and (min-width: 768px) {
 
-	/*---Style commun---*/
+  /*---Style commun---*/
   header {
     margin: 0;
     text-align: center;
@@ -542,7 +542,7 @@ textarea{
     margin-top: 1.5%;
   }
 
-	h2 {
+  h2 {
     font-size: 1.5em;
   }
 
@@ -600,7 +600,7 @@ textarea{
     color: #333333;
   }
 
-	#menu a:visited {
+  #menu a:visited {
     color : #333333;
   }
 
@@ -618,19 +618,19 @@ textarea{
     margin:auto;
   }
 
-	p {
-	  font-size: 1em;
-		margin-top : 3%;
+  p {
+    font-size: 1em;
+    margin-top : 3%;
     margin-bottom : 3%;
-	}
+  }
 
   footer hr{
     display:none;
   }
 
-	footer ul li a{
-		color : #343E47;
-	}
+  footer ul li a{
+    color : #343E47;
+  }
 
   footer #social a{
     margin-left : 2%;
@@ -652,63 +652,63 @@ textarea{
     margin-bottom: 3%;
   }
 
-	/*---Index---*/
-	blockquote {
-	  font-size: 1.9em;
-	  margin-top: 4%;
-	  margin-bottom: 4%;
-	}
-
-	.images {
-	  display: flex;
-	  flex-direction: row;
-	  justify-content:space-between;
-	}
-
-	.imgLeft{
-	  width: 23%;
-	  display: flex;
-	  flex-direction: column;
-	  justify-content: space-between;
-	}
-	.imgLeft .img1, .imgLeft .img2 {
-	  width: 100%;
-	}
-
-	.imgDesktop1 {
-	  display: block;
-	  width: 100%
-	}
-
-	.imgCenter{
-	  width: 45%;
-	}
-
-	.imgCenter .img3 {
-	  margin: 0;
-	}
-
-	.imgRight {
-	  width: 23%;
-	  display: flex;
-	  flex-direction: column;
-	  justify-content: space-between;
-	}
-	.imgRight .img4, .imgRight .img5 {
-	  width: 100%;
-	}
-
-	.imgDesktop2 {
-	  display: block;
-	  width: 100%
-	}
-
-	/*---Collection---*/
-	.text {
+  .text {
     margin-top : 4%;
     margin-bottom : 4%;
   }
 
+  /*---Index---*/
+  blockquote {
+    font-size: 1.9em;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+
+  .images {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+  }
+
+  .imgLeft{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .imgLeft .img1, .imgLeft .img2 {
+    width: 100%;
+  }
+
+  .imgDesktop1 {
+    display: block;
+    width: 100%
+  }
+
+  .imgCenter{
+    width: 45%;
+  }
+
+  .imgCenter .img3 {
+    margin: 0;
+  }
+
+  .imgRight {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .imgRight .img4, .imgRight .img5 {
+    width: 100%;
+  }
+
+  .imgDesktop2 {
+    display: block;
+    width: 100%
+  }
+
+  /*---Collection---*/
   .pose1, .pose2, .pose3 {
     width: 25%;
   }
@@ -717,79 +717,71 @@ textarea{
     width: 75%;
   }
 
-	/*---Creation---*/
-	.cSavoirFaire, .cCuirs, .cSemelle, .cDoublure {
-	  display: flex;
-	  flex-direction: row;
-	  justify-content: space-around;
-	}
+  /*---Creation---*/
+  .cSavoirFaire, .cCuirs, .cSemelle, .cDoublure {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 
-	.cSavoirFaireImg, .cCuirsImg, .cSemelleImg, .cDoublureImg {
-	  width: 45%;
-	}
+  .cSavoirFaireImg, .cCuirsImg, .cSemelleImg, .cDoublureImg {
+    width: 45%;
+  }
 
-	.cSavoirFaireText, .cCuirsText, .cSemelleText, .cDoublureText  {
-	  width: 55%;
-	  padding: 5%;
-	  align-self: center;
-	}
+  .cSavoirFaireText, .cCuirsText, .cSemelleText, .cDoublureText  {
+    width: 55%;
+    padding: 5%;
+    align-self: center;
+  }
 
-	.cSavoirFaireText p, .cSemelleText p {
-	  text-align: center;
-	  margin: 0;
-	  margin-left: 10%;
-	}
+  .cSavoirFaireText p, .cSemelleText p {
+    text-align: center;
+    margin: 0;
+    margin-left: 10%;
+  }
 
-	.cCuirsText p, .cDoublureText p {
-	  text-align: center;
-	  margin: 0;
-	  padding-right: 10%;
-	}
+  .cCuirsText p, .cDoublureText p {
+    text-align: center;
+    margin: 0;
+    padding-right: 10%;
+  }
 
-	.cSavoirFaireImg, .cSemelleImg {
-	  margin-right: 10%;
-	}
+  .cSavoirFaireImg, .cSemelleImg {
+    margin-right: 10%;
+  }
 
-	.cSavoirFaire img, .cSemelle img {
-	  width: 100%;
-	  margin: 0;
-	}
+  .cSavoirFaire img, .cSemelle img {
+    width: 100%;
+    margin: 0;
+  }
 
-	.cCuirs, .cDoublure {
-	  flex-direction: row-reverse;
-	}
+  .cCuirs, .cDoublure {
+    flex-direction: row-reverse;
+  }
 
-	.cCuirsImg, .cDoublureImg {
-	    margin-left: 10%;
-	}
+  .cCuirsImg, .cDoublureImg {
+    margin-left: 10%;
+  }
 
-	.cCuirs img, .cDoublure img {
-	  width: 100%;
-	  margin: 0;
-	}
+  .cCuirs img, .cDoublure img {
+    width: 100%;
+    margin: 0;
+  }
 
-	/*---Contact---*/
-	.rond {
+  /*---Contact---*/
+  .rond {
     width: 40%;
     display: inline-block;
     margin-bottom: 5%;
     margin-left: 0%;
   }
 
-	#Presentation_contact{
-		text-align: center;
-	}
-
-	#Presentation_contact p{
-		font-size: 0.9em;
-	}
-
   #textcontact{
     display: inline-block;
     width: 40%;
     vertical-align: top;
     text-align: justify;
-    margin: 3% 1% 5% 9%;
+    margin: 3% 5% 5% 9%;
     font-size: 1em;
   }
 
